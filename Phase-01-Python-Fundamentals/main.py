@@ -32,3 +32,7 @@ print(floor(3.2))              #chop off the decimal point and get the lowest nu
 print(ceil(3.2))
 print(sqrt(36))                #square root of a number
 
+# getting input from user
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
