@@ -94,11 +94,29 @@ is_tall = True
 #     print("you are not a male and not tall")
 
 # if statements & comparisons
-def max_num(num1, num2, num3):
-    if num1 >= num2 and num1 >= num3:
-        return num1
-    elif num2 >= num1 and num2 >= num3:
-        return num2
-    else:
-        return num3
-print(max_num(3,4,5))
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+# print(max_num(3,4,5))
+
+# dictionaries
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+print(monthConversions["Jan"])
+print(monthConversions.get("Feb"))
