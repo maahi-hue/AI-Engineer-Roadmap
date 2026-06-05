@@ -33,6 +33,12 @@ print(ceil(3.2))
 print(sqrt(36))                #square root of a number
 
 # getting input from user
-name = input("Enter your name: ")
-age = input("Enter your age: ")
-print("Hello " + name + "! You are " + age)
+# name = input("Enter your name: ")
+# age = input("Enter your age: ")
+# print("Hello " + name + "! You are " + age)
+
+# lists
+friends = ["kevin", "karen", "jim", "Oscar", "Toby"]
+friends[1] = "mike"
+print(friends[1:])
+print(friends[1:3])
