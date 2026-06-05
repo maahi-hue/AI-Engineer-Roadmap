@@ -64,3 +64,11 @@ lucky_numbers.reverse()
 coordinates = [(4, 5), (6, 7), (80, 34)]
 # coordinates[1] = 10                          #this gives error because tuples can not be changed or modified like lists
 # print(coordinates[0])
+
+# functions
+def say_hi(name, age, gender):
+    print("Hello " + name + ", you are " + str(age) + " years old " + gender )
+
+say_hi("mike", 20, "Male")
+say_hi("jim", 20, "Female")
+say_hi("karen", 20, "Male")
