@@ -1,3 +1,5 @@
+from unittest import result
+
 print("Hello World")
 
 # variables and data types
@@ -66,9 +68,14 @@ coordinates = [(4, 5), (6, 7), (80, 34)]
 # print(coordinates[0])
 
 # functions
-def say_hi(name, age, gender):
-    print("Hello " + name + ", you are " + str(age) + " years old " + gender )
+# def say_hi(name, age, gender):
+    # print("Hello " + name + ", you are " + str(age) + " years old " + gender )
 
-say_hi("mike", 20, "Male")
-say_hi("jim", 20, "Female")
-say_hi("karen", 20, "Male")
+# say_hi("mike", 20, "Male")
+
+# return statement
+def cube(num):
+    return num*num*num
+
+result = cube(3)
+print(result)
