@@ -170,3 +170,31 @@ number_grid = [
 #     for col in row:
         # print(col)
 
+
+# try except
+# try:
+    # number = int(input("Enter a number: "))
+    # print(number)
+# except ZeroDivisionError as err:
+    # print(err)
+# except ValueError:
+    # print("Invalid input")
+
+
+# reading files
+file = open("structure.txt", "r")            #there are multiple mode like- r->read, w->write, a->append, r+->read+write
+# for lines in file.readlines():
+    # print(lines)                             #reads each line of the file
+
+# print(file.readable())                     #checks if the file is readable or not return True/False according to the mode
+# print(file.read())                         #reads whole file
+# print(file.readline())                     #reads first line
+# print(file.readlines())                    #reads all lines of the file as an array
+# print(file.readlines()[1])
+file.close()
+
+
+# writing files
+file = open("structure.txt", "a")
+# file.write("\nrdfghg")
+file.close()

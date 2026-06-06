@@ -1,0 +1,11 @@
+AI-Engineer-Roadmap/
+├── Phase-01-Python-Fundamentals/
+│   ├── calculator.py
+│   ├── loops.py
+│   ├── functions.py
+│   └── README.md
+│
+├── Phase-02-Data-Analysis/
+├── Phase-03-Machine-Learning/
+rdfghg
+rdfghg
