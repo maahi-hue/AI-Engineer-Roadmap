@@ -118,5 +118,14 @@ monthConversions = {
     "Nov": "November",
     "Dec": "December",
 }
-print(monthConversions["Jan"])
-print(monthConversions.get("Feb"))
+# print(monthConversions["Jan"])
+# print(monthConversions.get("Feb"))
+
+# while loop
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+print("Done with loop")
+
