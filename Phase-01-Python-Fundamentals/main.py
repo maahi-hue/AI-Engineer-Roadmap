@@ -124,8 +124,24 @@ monthConversions = {
 # while loop
 i = 1
 while i <= 10:
-    print(i)
+    # print(i)
     i += 1
 
-print("Done with loop")
+# print("Done with loop")
 
+# for loop
+friends = ["kevin", "karen", "jim", "Oscar", "Toby"]
+# for friend in  friends:
+    # print(friend)
+
+for index in range(len(friends)):
+    print(friends[index])
+
+for index in range(3, 10):
+    print(index)
+
+for index in range(5):
+    if index == 0:
+        print("First iteration")
+    else:
+        print("not first iteration")
