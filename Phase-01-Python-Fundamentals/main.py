@@ -206,6 +206,20 @@ file.close()
 # classes & objects
 from student import student
 student1 = student("Jim", "Business", 3.1, False)
-student2 = student("Pam", "Art", 2.5, True)
+student2 = student("Pam", "Art", 3.5, True)
 
 # print(student2.gpa)
+
+
+# object functions
+print(student2.on_honor_roll())
+
+# inheritance
+from chef import Chef
+from chineseChef import ChineseChef
+
+myChef = Chef()
+myChef.make_special_dish()
+
+myChineseChef = ChineseChef()
+myChineseChef.make_chicken()
