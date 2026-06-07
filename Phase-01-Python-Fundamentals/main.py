@@ -198,3 +198,14 @@ file.close()
 file = open("structure.txt", "a")
 # file.write("\nrdfghg")
 file.close()
+
+
+# modules and pip
+#list of python modules (google)
+
+# classes & objects
+from student import student
+student1 = student("Jim", "Business", 3.1, False)
+student2 = student("Pam", "Art", 2.5, True)
+
+# print(student2.gpa)
